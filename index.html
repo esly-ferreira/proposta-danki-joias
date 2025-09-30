@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DANIKJOIAS - Proposta de Migração</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="shortcut icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header Fixo -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="DANIKJOIAS" class="logo-image">
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#visao-geral" class="nav-link">Visão Geral</a></li>
+          <li><a href="#comparativo" class="nav-link">Comparativo</a></li>
+          <li><a href="#pagamentos" class="nav-link">Pagamentos</a></li>
+          <li><a href="#recomendacao" class="nav-link">Nossa Recomendação</a></li>
+          <li><a href="#valores-migracao" class="nav-link">Valores</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Seção Hero -->
+  <section id="visao-geral" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-logo">
+          <img src="logo.png" alt="DANIKJOIAS" class="hero-logo-image">
+        </div>
+        <h2 class="hero-title">
+          Transforme sua loja de joias com mais performance e escalabilidade
+        </h2>
+        <p class="hero-subtitle">
+          Apresentamos nossa proposta para migrar sua loja online para as melhores plataformas do mercado
+        </p>
+        <button class="cta-button" onclick="scrollToSection('comparativo')">
+          Ver Proposta
+          <i class="fas fa-arrow-down"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Comparativo -->
+  <section id="comparativo" class="comparativo">
+    <div class="container">
+      <h2 class="section-title">Comparativo de Plataformas</h2>
+      <div class="comparativo-grid">
+        <!-- Card Nuvemshop -->
+        <div class="platform-card nuvemshop">
+          <div class="card-header">
+            <div class="platform-logo">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <h3>Nuvemshop</h3>
+            <span class="badge recommended">Recomendada</span>
+          </div>
+          <div class="card-content">
+            <div class="feature">
+              <i class="fas fa-dollar-sign"></i>
+              <div>
+                <h4>Planos Disponíveis</h4>
+                <p>Gratuito até R$ 389/mês</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-boxes"></i>
+              <div>
+                <h4>Limite de Produtos</h4>
+                <p>Ilimitado</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-palette"></i>
+              <div>
+                <h4>Personalização</h4>
+                <p>Alta flexibilidade</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-plug"></i>
+              <div>
+                <h4>Integrações</h4>
+                <p>200+ apps disponíveis</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-chart-line"></i>
+              <div>
+                <h4>Escalabilidade</h4>
+                <p>Excelente para crescimento</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Loja Integrada -->
+        <div class="platform-card loja-integrada">
+          <div class="card-header">
+            <div class="platform-logo">
+              <i class="fas fa-store"></i>
+            </div>
+            <h3>Loja Integrada</h3>
+          </div>
+          <div class="card-content">
+            <div class="feature">
+              <i class="fas fa-dollar-sign"></i>
+              <div>
+                <h4>Planos Disponíveis</h4>
+                <p>Gratuito até R$ 1.999/mês</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-boxes"></i>
+              <div>
+                <h4>Limite de Produtos</h4>
+                <p>50 a ilimitados</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-palette"></i>
+              <div>
+                <h4>Personalização</h4>
+                <p>Moderada</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-plug"></i>
+              <div>
+                <h4>Integrações</h4>
+                <p>100+ apps disponíveis</p>
+              </div>
+            </div>
+            <div class="feature">
+              <i class="fas fa-chart-line"></i>
+              <div>
+                <h4>Escalabilidade</h4>
+                <p>Boa para médio porte</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Opções de Pagamento -->
+  <section id="pagamentos" class="pagamentos">
+    <div class="container">
+      <h2 class="section-title">Opções de Pagamento Nuvemshop</h2>
+      <p class="section-subtitle">Flexibilidade total para receber pagamentos com as melhores taxas do mercado</p>
+      <div class="official-link">
+        <a href="https://www.nuvemshop.com.br/termos-de-uso" target="_blank" rel="noopener noreferrer" class="link-button">
+          <i class="fas fa-external-link-alt"></i>
+          Ver informações oficiais da Nuvemshop
+        </a>
+      </div>
+
+      <!-- Nuvem Pago (Recomendado) -->
+      <div class="payment-option recommended">
+        <div class="payment-header">
+          <div class="payment-icon">
+            <i class="fas fa-credit-card"></i>
+          </div>
+          <div class="payment-title">
+            <h3>Nuvem Pago</h3>
+            <span class="badge recommended">Recomendado</span>
+          </div>
+        </div>
+        <div class="payment-content">
+          <div class="payment-benefits">
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Checkout transparente (cliente não sai da loja)</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Gestão centralizada no painel da loja</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Pix com validade personalizável</span>
+            </div>
+          </div>
+          <div class="payment-rates">
+            <h4>Taxas e Prazos</h4>
+            <div class="rate-grid">
+              <div class="rate-item">
+                <i class="fas fa-credit-card"></i>
+                <div>
+                  <strong>Cartão de Crédito</strong>
+                  <p>4,19% + R$0,35 (30 dias)</p>
+                  <small>Recebimento: 2, 14 ou 30 dias</small>
+                </div>
+              </div>
+              <div class="rate-item">
+                <i class="fas fa-qrcode"></i>
+                <div>
+                  <strong>Pix</strong>
+                  <p>0,99%</p>
+                  <small>Recebimento: Na hora</small>
+                </div>
+              </div>
+              <div class="rate-item">
+                <i class="fas fa-barcode"></i>
+                <div>
+                  <strong>Boleto</strong>
+                  <p>R$ 2,39 fixo</p>
+                  <small>Recebimento: 2 dias</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Planos Loja Integrada -->
+      <div class="plans-section">
+        <h3>Planos da Loja Integrada</h3>
+        <p>Estrutura de preços baseada em volume de produtos e visitas</p>
+
+        <div class="plans-grid">
+          <div class="plan-card">
+            <div class="plan-header">
+              <h4>Gratuito</h4>
+              <div class="plan-price">R$ 0</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-boxes"></i>
+                <span>50 produtos</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-eye"></i>
+                <span>5.000 visitas/mês</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card">
+            <div class="plan-header">
+              <h4>Crescimento</h4>
+              <div class="plan-price">R$ 54</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-boxes"></i>
+                <span>250 produtos</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-eye"></i>
+                <span>25.000 visitas/mês</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card">
+            <div class="plan-header">
+              <h4>Aceleração</h4>
+              <div class="plan-price">R$ 99</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-boxes"></i>
+                <span>500 produtos</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-eye"></i>
+                <span>50.000 visitas/mês</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card">
+            <div class="plan-header">
+              <h4>Expansão</h4>
+              <div class="plan-price">R$ 239</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-boxes"></i>
+                <span>Produtos ilimitados</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-eye"></i>
+                <span>300.000 visitas/mês</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card elite">
+            <div class="plan-header">
+              <h4>Elite</h4>
+              <div class="plan-price">R$ 1.999</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-boxes"></i>
+                <span>Produtos ilimitados</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-eye"></i>
+                <span>Visitas ilimitadas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Planos Nuvemshop -->
+      <div class="plans-section nuvemshop-plans">
+        <h3>Planos da Nuvemshop</h3>
+        <p>Estrutura de preços baseada em funcionalidades e suporte</p>
+
+        <div class="plans-grid">
+          <div class="plan-card nuvemshop-plan">
+            <div class="plan-header">
+              <h4>Começo</h4>
+              <div class="plan-price">Gratuito</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-boxes"></i>
+                <span>Produtos ilimitados</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-palette"></i>
+                <span>1 layout padrão</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Cursos gratuitos</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card nuvemshop-plan recommended">
+            <div class="plan-header">
+              <h4>Essencial</h4>
+              <div class="plan-price">R$ 59</div>
+              <span class="plan-badge">Recomendado</span>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-headset"></i>
+                <span>Atendimento online + email</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-palette"></i>
+                <span>+60 layouts gratuitos</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-credit-card"></i>
+                <span>+20 opções de pagamento</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-robot"></i>
+                <span>30 usos de IA/mês</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card nuvemshop-plan">
+            <div class="plan-header">
+              <h4>Impulso</h4>
+              <div class="plan-price">R$ 139</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-whatsapp"></i>
+                <span>WhatsApp + atendimento</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-cogs"></i>
+                <span>Ações em massa</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-code"></i>
+                <span>Acesso ao código-fonte</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-robot"></i>
+                <span>150 usos de IA/mês</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card nuvemshop-plan">
+            <div class="plan-header">
+              <h4>Escala</h4>
+              <div class="plan-price">R$ 389</div>
+            </div>
+            <div class="plan-features">
+              <div class="plan-feature">
+                <i class="fas fa-phone"></i>
+                <span>Suporte telefônico</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-chart-bar"></i>
+                <span>Relatórios ilimitados</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-users"></i>
+                <span>Controle de usuários</span>
+              </div>
+              <div class="plan-feature">
+                <i class="fas fa-robot"></i>
+                <span>IA ilimitada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Outros Gateways -->
+      <div class="gateways-section">
+        <h3>Outros Gateways Integrados</h3>
+        <p>Para quem já tem contas em outros gateways ou precisa de funcionalidades específicas</p>
+
+        <div class="gateways-grid">
+          <div class="gateway-card">
+            <div class="gateway-header">
+              <i class="fas fa-shopping-cart"></i>
+              <h4>Mercado Pago</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Cartão:</strong> 3,98% - 4,98%</p>
+              <p><strong>Pix:</strong> 0,99%</p>
+              <p><strong>Boleto:</strong> R$ 3,49</p>
+            </div>
+          </div>
+
+          <div class="gateway-card">
+            <div class="gateway-header">
+              <i class="fab fa-paypal"></i>
+              <h4>PayPal</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Cartão:</strong> 3,00% - 4,59% + R$0,60</p>
+              <p><strong>Internacional:</strong> Forte</p>
+              <p><strong>Recebimento:</strong> 1-30 dias</p>
+            </div>
+          </div>
+
+          <div class="gateway-card">
+            <div class="gateway-header">
+              <i class="fas fa-university"></i>
+              <h4>PagBank</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Cartão:</strong> 3,69% - 4,39% + R$0,40</p>
+              <p><strong>Pix:</strong> 1,00%</p>
+              <p><strong>Boleto:</strong> R$ 2,99</p>
+            </div>
+          </div>
+
+          <div class="gateway-card">
+            <div class="gateway-header">
+              <i class="fas fa-gem"></i>
+              <h4>Pagar.me (Stone)</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Cartão:</strong> 3,39% - 3,89% + R$0,99</p>
+              <p><strong>Pix:</strong> 0,99%</p>
+              <p><strong>Boleto:</strong> R$ 3,19</p>
+            </div>
+          </div>
+
+          <div class="gateway-card">
+            <div class="gateway-header">
+              <i class="fas fa-building"></i>
+              <h4>Getnet (Santander)</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Cartão:</strong> 3,49% + R$0,40 (30 dias)</p>
+              <p><strong>Pix:</strong> 1,39% + R$0,50</p>
+              <p><strong>Boleto:</strong> R$ 2,60</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Pagamentos Loja Integrada -->
+  <section id="pagamentos-li" class="pagamentos-li">
+    <div class="container">
+      <h2 class="section-title">Opções de Pagamento Loja Integrada</h2>
+      <p class="section-subtitle">Sistema nativo Pagali com flexibilidade de planos e faixas de isenção</p>
+      <div class="official-link">
+        <a href="https://www.lojaintegrada.com.br/planos" target="_blank" rel="noopener noreferrer" class="link-button">
+          <i class="fas fa-external-link-alt"></i>
+          Ver planos oficiais da Loja Integrada
+        </a>
+      </div>
+
+      <!-- Pagali (Nativo) -->
+      <div class="payment-option li-recommended">
+        <div class="payment-header">
+          <div class="payment-icon">
+            <i class="fas fa-wallet"></i>
+          </div>
+          <div class="payment-title">
+            <h3>Pagali (Sistema Nativo)</h3>
+            <span class="badge li-recommended">Nativo</span>
+          </div>
+        </div>
+        <div class="payment-content">
+          <div class="payment-benefits">
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Disponível em todos os planos</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Recebimento imediato em saldo Pagali</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Faixa de isenção mensal por volume</span>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Prazo de recebimento configurável</span>
+            </div>
+          </div>
+          <div class="payment-rates">
+            <h4>Taxas por Plano</h4>
+            <div class="rate-grid">
+              <div class="rate-item li-plan">
+                <i class="fas fa-gift"></i>
+                <div>
+                  <strong>Plano Gratuito</strong>
+                  <p>PIX: 1% | Cartão: ~4,59% + R$0,30</p>
+                  <small>Recebimento: 15 dias</small>
+                </div>
+              </div>
+              <div class="rate-item li-plan">
+                <i class="fas fa-crown"></i>
+                <div>
+                  <strong>Plano Elite</strong>
+                  <p>PIX: 0,99% (máx R$1,99)</p>
+                  <small>Taxas reduzidas</small>
+                </div>
+              </div>
+              <div class="rate-item li-plan">
+                <i class="fas fa-chart-line"></i>
+                <div>
+                  <strong>Isenção Mensal</strong>
+                  <p>Até R$ 2.500-3.500/mês</p>
+                  <small>Dependendo do plano</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gateways Externos LI -->
+      <div class="gateways-section">
+        <h3>Gateways Externos (Com Tarifa)</h3>
+        <p>Mercado Pago, PayPal e outros gateways têm tarifa adicional sobre transações</p>
+
+        <div class="li-gateways-grid">
+          <div class="li-gateway-card">
+            <div class="gateway-header">
+              <i class="fas fa-exclamation-triangle"></i>
+              <h4>Tarifa Adicional</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Valor:</strong> Varia por plano</p>
+              <p><strong>Planos altos:</strong> Tarifas menores</p>
+              <p><strong>Isenção:</strong> Até faixa mensal</p>
+            </div>
+          </div>
+
+          <div class="li-gateway-card">
+            <div class="gateway-header">
+              <i class="fas fa-calculator"></i>
+              <h4>Exemplo Prático</h4>
+            </div>
+            <div class="gateway-rates">
+              <p><strong>Faturamento baixo:</strong> Isento</p>
+              <p><strong>Faturamento alto:</strong> + tarifa LI</p>
+              <p><strong>Custo total:</strong> Gateway + LI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Nossa Recomendação -->
+  <section id="recomendacao" class="recomendacao">
+    <div class="container">
+      <h2 class="section-title">Nossa Recomendação</h2>
+      <div class="recomendacao-content">
+        <div class="recomendacao-text">
+          <h3>Nuvemshop é a escolha ideal</h3>
+          <p>
+            Com base na análise detalhada, a <strong>Nuvemshop</strong> é a plataforma ideal para suportar
+            os 200 produtos atuais e o crescimento futuro da sua loja de alianças.
+          </p>
+          <div class="cost-comparison">
+            <div class="cost-item">
+              <strong>Nuvemshop:</strong> R$ 59/mês (Essencial) - produtos ilimitados
+            </div>
+            <div class="cost-item">
+              <strong>Loja Integrada:</strong> R$ 99/mês (Aceleração) - 500 produtos ou R$ 239/mês (Expansão) - ilimitados
+            </div>
+            <div class="cost-item highlight">
+              <strong>Economia:</strong> R$ 40/mês com Nuvemshop vs Loja Integrada Aceleração
+            </div>
+          </div>
+          <div class="benefits">
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Suporte ilimitado de produtos</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Melhor performance e velocidade</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Ecosistema robusto de integrações</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Suporte técnico especializado</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Nuvem Pago integrado com checkout transparente</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Taxas competitivas e recebimento flexível</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Sem tarifas extras para gateways externos</span>
+            </div>
+            <div class="benefit">
+              <i class="fas fa-check-circle"></i>
+              <span>Melhor conversão com checkout nativo</span>
+            </div>
+          </div>
+        </div>
+        <div class="recomendacao-visual">
+          <div class="chart-container">
+            <h4>Comparação de Pagamentos</h4>
+            <div class="payment-comparison">
+              <div class="comparison-item">
+                <div class="comparison-header">
+                  <i class="fas fa-credit-card"></i>
+                  <span>Nuvem Pago</span>
+                </div>
+                <div class="comparison-details">
+                  <p><strong>PIX:</strong> 0,99%</p>
+                  <p><strong>Cartão:</strong> 4,19% + R$0,35</p>
+                  <p><strong>Boleto:</strong> R$ 2,39</p>
+                  <p class="highlight">✓ Sem tarifas extras</p>
+                </div>
+              </div>
+              <div class="comparison-item">
+                <div class="comparison-header">
+                  <i class="fas fa-wallet"></i>
+                  <span>Pagali</span>
+                </div>
+                <div class="comparison-details">
+                  <p><strong>PIX:</strong> 1% (0,99% Elite)</p>
+                  <p><strong>Cartão:</strong> ~4,59% + R$0,30</p>
+                  <p><strong>Externos:</strong> + tarifa LI</p>
+                  <p class="highlight">⚠️ Tarifas extras</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Valores de Migração -->
+  <section id="valores-migracao" class="valores-migracao">
+    <div class="container">
+      <h2 class="section-title">Pacotes de Migração de Loja Virtual</h2>
+      <p class="section-subtitle">Escolha o pacote ideal para sua loja de alianças</p>
+
+      <div class="packages-grid">
+        <!-- Pacote 1 - Essencial -->
+        <div class="package-card">
+          <div class="package-header">
+            <div class="package-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Pacote 1</h3>
+            <h4>Essencial</h4>
+            <p class="package-subtitle">Setup + Design Inicial</p>
+          </div>
+          <div class="package-price">
+            <span class="price-range">R$ 900 - 1.200</span>
+          </div>
+          <div class="package-features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Migração para Nuvemshop ou Loja Integrada</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Configuração inicial (domínio, checkout, pagamentos, frete)</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Design da página inicial moderno e responsivo</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Cadastro de 1 produto de exemplo <span style="color: #ed6a6a;">(O restante é feito manualmente pelo cliente)</span></span>
+            </div>
+          </div>
+          <div class="package-cta">
+            <button class="package-button" onclick="scrollToSection('contato')">
+              Escolher Pacote
+            </button>
+          </div>
+        </div>
+
+        <!-- Pacote 2 - Completo -->
+        <div class="package-card recommended">
+          <div class="package-badge">Recomendado</div>
+          <div class="package-header">
+            <div class="package-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Pacote 2</h3>
+            <h4>Completo</h4>
+            <p class="package-subtitle">Design + Cadastro de Produtos</p>
+          </div>
+          <div class="package-price">
+            <span class="price-range">R$ 1.500 - 2.000</span>
+          </div>
+          <div class="package-features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Tudo do Pacote 1</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Cadastro de todos os ~200 produtos</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Organização de categorias e variações</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Ajustes visuais nas páginas internas</span>
+            </div>
+          </div>
+          <div class="package-cta">
+            <button class="package-button primary" onclick="scrollToSection('contato')">
+              Escolher Pacote
+            </button>
+          </div>
+        </div>
+
+        <!-- Pacote 3 - Premium -->
+        <div class="package-card">
+          <div class="package-header">
+            <div class="package-icon">
+              <i class="fas fa-crown"></i>
+            </div>
+            <h3>Pacote 3</h3>
+            <h4>Premium</h4>
+            <p class="package-subtitle">Design + Produtos + Identidade Visual</p>
+          </div>
+          <div class="package-price">
+            <span class="price-range">R$ 3.000 - 3.500</span>
+          </div>
+          <div class="package-features">
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Tudo do Pacote 2</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Edição de todas as imagens dos produtos</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Criação de banners personalizados</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Kits de posts para redes sociais</span>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Ajuste fino da experiência do usuário (UX)</span>
+            </div>
+          </div>
+          <div class="package-cta">
+            <button class="package-button" onclick="scrollToSection('contato')">
+              Escolher Pacote
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="packages-note">
+        <p><strong>Nota:</strong> Valores podem variar conforme complexidade específica do projeto.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contato" class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Entre em Contato</h3>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>atendimento@esly.com.br</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>(11) 98752-8603</span>
+          </div>
+        </div>
+        <div class="footer-rights">
+          <p>&copy; 2025 Proposta de Migração feita por Esly. Todos os direitos reservados.</p>
+          <div class="official-sources">
+            <h4>Fontes Oficiais</h4>
+            <div class="source-links">
+              <a href="https://www.nuvemshop.com.br/termos-de-uso" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-cloud"></i>
+                Nuvemshop
+              </a>
+              <a href="https://www.lojaintegrada.com.br/planos" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-store"></i>
+                Loja Integrada
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
